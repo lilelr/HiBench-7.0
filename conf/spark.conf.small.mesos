@@ -1,0 +1,22 @@
+hibench.spark.home          /home/lemaker/open-source/spark-2.3.0-bin-hadoop2.7
+hibench.spark.master          mesos://Veriton:5050
+hibench.yarn.executor.num          2
+hibench.yarn.executor.cores          4
+hibench.streambench.spark.batchInterval          100
+hibench.streambench.spark.receiverNumber          4
+hibench.streambench.spark.storageLevel          2
+hibench.streambench.spark.enableWAL          False
+hibench.streambench.spark.checkpointPath          /var/tmp
+hibench.streambench.spark.useDirectMode          True
+spark.eventLog.enabled          True
+spark.history.fs.logDirectory          hdfs://Veriton:9000/user/lemaker/logs
+spark.eventLog.dir          hdfs://Veriton:9000/user/lemaker/logs
+spark.eventLog.compress          True
+spark.yarn.maxAppAttempts          1
+spark.submit.deployMode          client
+spark.executor.memory             600m
+spark.executor.cores              1
+spark.driver.memory               800m
+spark.driver.cores                1
+spark.cores.max                   2
+
